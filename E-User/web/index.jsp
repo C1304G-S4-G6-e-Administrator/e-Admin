@@ -31,14 +31,14 @@
                     width: 100%;
                     min-height: 550px;
                 }
-                .nav{
-                     border-bottom: 2px solid;
-                border-bottom-color: #2FA449;
-                }
                 .nav ul{
                     list-style-type:none;
                     display: block;
                     padding-left: 150px;
+                }
+                .nav{
+                     border-bottom: 2px solid;
+                border-bottom-color: #2FA449;
                 }
                 .nav ul li{
                     display:inline-block;
@@ -68,9 +68,10 @@
         </div>
         <div class="nav">
             <ul>
-                
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
                 <li><a href="#">Login</a></li>
-               
+                <li><a href="#">Contact</a></li>
             </ul>
         </div>
         <div class="content">
