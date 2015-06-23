@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : Jun 18, 2015, 9:10:38 AM
+    Document   : details
+    Created on : Jun 23, 2015, 10:02:25 PM
     Author     : duc
 --%>
 
@@ -9,15 +9,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Home</title>
-        <link href="css/style.css" type="text/css" rel="stylesheet"/>
-        <style type="text/css" >
-            
-        </style>
+        <title>JSP Page</title>
     </head>
-    
     <body>
-         <%@include file="header.jsp" %>
+        <%@include file="header.jsp" %>
         <div class="content">
             <div class="left-cont">
                 <div class="l"></div>

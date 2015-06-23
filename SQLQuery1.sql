@@ -1,4 +1,6 @@
-create database E-Admin
+create database admin
+go
+USE admin
 go
 create table admin
 (
