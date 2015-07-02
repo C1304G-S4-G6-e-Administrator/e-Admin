@@ -23,9 +23,9 @@
                         LAB INFORMATION
                     </div>
                     <ul>
-                        <li><a href="#">Lab Details</a></li>
-                        <li><a href="#">Time table</a></li>
-                        <li><a href="#">Report</a></li>
+                        <li><a href="index.jsp">Lab Details</a></li>
+                        <li><a href="timetable.jsp">Time table</a></li>
+                        <li><a href="report.jsp">Report</a></li>
                     </ul>
                 </div>
             </div>
