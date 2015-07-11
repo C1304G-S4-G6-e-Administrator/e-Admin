@@ -12,7 +12,19 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Lab Details</title>
     </head>
-    <body>
+    <script>
+        function myFunction() {
+if (<%if (request.getAttribute("message")!=null) {
+        out.print(true);
+            }
+          %>) {
+    alert("Can't not delete this lab. It can have constraint with a timetable or report");
+    <% request.removeAttribute("message"); %>
+}
+    
+}
+</script>
+    <body onload="myFunction()">
 
         <jsp:include page = "header.jsp"/>
         <!-- start: Content -->

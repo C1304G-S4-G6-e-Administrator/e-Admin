@@ -279,6 +279,22 @@ public int getLabByName(String name)
         }
         return false;
     }
+   public boolean deleteLab(int id) throws SQLException {
+        try {
+            openConnec();
+            CallableStatement cstmt = con.prepareCall("{call deleteLab(?)}");
+            cstmt.setInt("lab_id", id);
+            int rows = cstmt.executeUpdate();
+            
+            if (rows > 0) {
+                return true;
+            }
+            
+        } catch (Exception ex) {
+            Logger.getLogger(database.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return false;
+    }
     public ResultSet getData(String sql) throws Exception {
         ResultSet rs = null;
         openConnec();

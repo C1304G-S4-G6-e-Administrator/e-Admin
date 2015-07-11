@@ -4,6 +4,7 @@
     Author     : duc
 --%>
 
+<%@page import="entity.User"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -19,6 +20,8 @@
   <%
     if ((String) session.getAttribute("username")==null) {        
         response.sendRedirect("home.jsp");
+        User user=(User)session.getAttribute("user");
+        
                 }
 %>
     <body>
@@ -28,7 +31,7 @@
                     <div class="navbar-inner">
                         <div class="container-fluid">
 
-                            <a class="brand" href="#"><span>welcome</span></a>
+                            <a class="brand" href="#">Welcome: <%User user=(User)session.getAttribute("user"); out.print(user.getName()); %></a>
 
                             <!-- start: Header Menu -->
 

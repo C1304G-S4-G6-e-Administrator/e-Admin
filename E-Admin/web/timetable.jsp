@@ -45,7 +45,7 @@ if (<%if (request.getAttribute("message")!=null) {
                     <a href="home.jsp">Home</a> 
                     <i class="icon-angle-right"></i>
                 </li>
-                <li><a href="home.jsp">Lab</a></li>
+                <li><a href="home.jsp">Time Table</a></li>
             </ul>
             <div>
 

@@ -32,7 +32,7 @@
                     <a href="home.jsp">Home</a> 
                     <i class="icon-angle-right"></i>
                 </li>
-                <li><a href="home.jsp">Lab</a></li>
+                <li><a href="home.jsp">Reports</a></li>
             </ul>
             <div>
 
@@ -250,7 +250,7 @@
                                         <td class="center "><%= rs2.getNString("report_content")%></td>
                                         <td class="center "><%= rs2.getDate("report_timere")%></td>
                                         <td class="center "><%= rs2.getDate("report_deadline")%></td>
-                                        <td class="center ">Reject</td>
+                                        <td class="center ">Rejected</td>
                                         <td class="center "><%= rs2.getNString("report_message")%></td>
                                         <td class="center  sorting_1">
 
@@ -267,7 +267,7 @@
                                         <td class="center "><%= rs2.getNString("report_content")%></td>
                                         <td class="center "><%= rs2.getDate("report_timere")%></td>
                                         <td class="center "><%= rs2.getDate("report_deadline")%></td>
-                                        <td class="center ">Deny</td>
+                                        <td class="center ">Rejected</td>
                                         <td class="center "><%= rs2.getNString("report_message")%></td>
                                         <td class="center  sorting_1">
                                             <%out.print(" <a class='btn btn-danger' href='/E-Admin/DeleteRepost?id=" + rs2.getInt("report_id") + "'><i class='halflings-icon white trash'></i></a>");
@@ -337,7 +337,7 @@
                                                 out.print("Done");
                                             }
                                         if (rs2.getInt("report_status")==3) {
-                                                out.print("Reject");
+                                                out.print("Rejected");
                                             }
                                             %></td>
                                         <td class="center "><%= rs2.getNString("report_message")%></td>

@@ -40,8 +40,43 @@
                 </ul>
 
                 <div>
+                    <div class="lab">
+                        <p>
+                        <h1>LAB</h1>
+                        <H2>
+
+                            The school is not only equipped with facilities for students of technical and economic sector, but also concerned about the needs of students learning foreign languages language mass society by equipping a lab (located at the Base 3, room E.106) to improve the effectiveness of foreign language learning for students. Students can learn to block language visual arts in computer lab with 50 modern, airy and quiet. 
+                        </H2>
+                        <br>
+
+                        <H2>                          Lab is equipped with the following features:  <br>
+                            - Trainers can teach via radio (can transmit video, DVD to all students)<br>
+                            - All students can hear lectures by teachers<br>
+                            - Teachers can<br>
+                            + Talk to a designated student<br>
+                            + Choose one or two students who care to hear tapes<br>
+                            + Have students quiz tests, checking heard <br>
+                            + Divide group of students to teach, each group can learn in the different requirements of teachers.<br>
+                            + Sound management of student<br>
+                            + Monitor screen and perform operations on the learners'<br>
+                            _ Students can <br>
+                            + Play audio on a computer teacher<br>
+                            + Record pronunciation, translation and voice, then saved on<br>
+                            + Do the test, after the end of the exam can see the results and answers.<br>
+                            .....<br>
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+                        </h2>     
+
+                        </p>
+
+
+
+                    </div>
 
                     <div class="box-content">
+                        <h1>Images Lab</h1>
                         <div class="masonry-gallery masonry" style="position: relative; height: 778px; overflow: hidden;">
                             <div id="image-1" class="masonry-thumb masonry-brick" style="position: absolute; width: 273px; top: 0px; left: 0px;">
                                 <a style="" title="Sample Image 1" href="webContent/img/gallery/im1.jpg">

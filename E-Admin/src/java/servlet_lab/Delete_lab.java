@@ -38,11 +38,18 @@ public class Delete_lab extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-            String id = request.getParameter("id");
+            int id = Integer.valueOf(request.getParameter("id"));
             database db = new database();
-            int kq = db.updateData("delete from Labs where lab_id = " + id);
+            boolean kq = db.deleteLab(id);
+            if (kq) {
             RequestDispatcher dispatch = getServletContext().getRequestDispatcher("/List");
             dispatch.forward(request, response);
+            }
+            else {
+                request.setAttribute("message", "Can't not delete this user. It can have constraint with a timetable or report");
+                RequestDispatcher dispatch = getServletContext().getRequestDispatcher("/List");
+            dispatch.forward(request, response);
+            }
         } catch (Exception ex) {
             Logger.getLogger(Delete_lab.class.getName()).log(Level.SEVERE, null, ex);
         }
