@@ -15,7 +15,7 @@
         <link href="webContent/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
         <link href="webContent/css/style.css" rel="stylesheet" type="text/css"/>
         <link href="webContent/css/style-responsive.css" rel="stylesheet" type="text/css"/>
-
+        
     </head>
   <%
     if ((String) session.getAttribute("username")==null) {        

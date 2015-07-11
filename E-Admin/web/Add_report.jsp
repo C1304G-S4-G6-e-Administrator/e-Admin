@@ -73,7 +73,7 @@
                                     <span class="add-on"><i class="halflings-icon lock"></i></span>
                                         <select name="lab">
 
-                                    <option>Select </option>
+                                    
                                     <% 
                                     for(Lab l:list){
                                     %>

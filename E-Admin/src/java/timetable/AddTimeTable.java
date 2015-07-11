@@ -10,7 +10,7 @@ import data.database;
 import entity.User;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.Date;
+import java.util.Date;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
@@ -52,9 +52,9 @@ public class AddTimeTable extends HttpServlet {
             System.out.println(slot);
             
            String date=request.getParameter("user_data[birthday]");
+            System.out.println(date);
            
-
-           
+          
             int status=0;
             
             db.updateData("insert into TimeTable values(" + labID + "," + user.getId() + "," + status + ",'" + date + "'," + slot +")");
